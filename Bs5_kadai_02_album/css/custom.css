@@ -1,0 +1,82 @@
+/* CSS */
+
+html, body{
+	width: 100%; height: 100%;
+}
+
+.navbar-brand img{
+	width: 28px; height: auto;
+	margin: 0px 5px; padding: 0px;
+	border-radius: 14px;
+}
+
+#logo-html{
+	width: 100%; height: 225px;
+	background-image: url("../images/logo_html.png");
+	background-position: center;
+}
+
+#logo-css{
+	width: 100%; height: 225px;
+	background-image: url("../images/logo_css.png");
+	background-position: center;
+}
+
+#logo-javascript{
+	width: 100%; height: 225px;
+	background-image: url("../images/logo_javascript.png");
+	background-position: center;
+}
+
+#logo-jquery{
+	width: 100%; height: 225px;
+	background-image: url("../images/logo_jquery.png");
+	background-position: center;
+}
+
+#logo-bootstrap{
+	width: 100%; height: 225px;
+	background-image: url("../images/logo_bootstrap.png");
+	background-position: center;
+}
+
+#logo-vue{
+	width: 100%; height: 225px;
+	background-image: url("../images/logo_vue.png");
+	background-position: center;
+}
+.text-center {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+main {
+    margin-top: 50px; 
+}
+.bg-gray {
+	background-color: rgb(247, 239, 239);
+}
+.container{
+	padding-top: 50px;
+	padding-bottom: 35px;
+	width: 1000px;
+  
+}
+.card-img-top {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto;
+}
+.card{
+	margin-bottom: 20px;
+}
+.card-text {
+    width: 255px; 
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+  
+  
+  
