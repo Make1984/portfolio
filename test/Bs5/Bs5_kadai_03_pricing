@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<title>PiyoPricing</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./libs/bootstrap/carousel.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+	
+	<!-- Header(Start) -->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./images/logo.png">PiyoPricing
+				</a>
+			</div>
+		</nav>
+	</header>
+	<!-- Header(End) -->
+
+	<!-- Main(Start) -->
+	<main>
+		<div class="container">
+			<div class="text-center py-5">
+				<p style="font-size: 4rem;font-weight: bold;">利用料金</p>
+				<h5 style="font-size: 120%; font-weight: 500; color: gray;">月額2,500円(税込)唐津開けるコワーキングスペースを、目的に合ったプランから選べます。</h5>
+			</div>
+	
+			<div class="container">
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+				  <div class="col">
+					<div class="card mb-3 text-center shadow-sm" style="max-width: 16rem;">
+					  <div class="card-header" style="font-size: 25px; font-weight: 900;">Free</div>
+					  <div class="card-body">
+						<h1 class="card-title">
+						  ¥0<span style="color: gray; font-weight: normal;">/月</span>
+						</h1>
+						<p class="card-text">
+						  １users included<br>０ MB of storage<br>No support<br>Help center access
+						</p>
+						<a href="#" class="btn btn-outline-primary w-100"><strong>利用を開始する</strong></a>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col">
+					<div class="card mb-3 text-center shadow-sm" style="max-width: 16rem;">
+					  <div class="card-header" style="font-size: 25px; font-weight: 900;">Pro</div>
+					  <div class="card-body">
+						<h1 class="card-title">
+						  ¥2,500<span style="color: gray; font-weight: normal;">/月</span>
+						</h1>
+						<p class="card-text">
+						  １users included<br>２ GB of storage<br>Email support<br>Help center access
+						</p>
+						<a href="#" class="btn btn-primary w-100"><strong>利用を開始する</strong></a>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col">
+					<div class="card mb-3 text-center border-primary shadow-sm" style="max-width: 16rem;">
+					  <div class="card-header bg-primary text-white" style="font-size: 25px; font-weight: 900;">Enterprise</div>
+					  <div class="card-body bg-white text-gray">
+						<h1 class="card-title text-gray">
+						  ¥9,980<span style="color: gray; font-weight: normal;">/月</span>
+						</h1>
+						<p class="card-text text-gray">
+						  ３users included<br>２ TB of storage<br> support<br>Help center access
+						</p>
+						<a href="#" class="btn btn-primary w-100"><strong>利用を開始する</strong></a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+	
+			<div class="text-center py-5">
+				<h1 style="font-size: 250%;font-weight: 400;">プランを比較</h1>
+			</div>
+			<table class="table" style="color: black; font-weight: bolder;">
+				<thead>
+					<tr>
+					  <th scope="col"></th>
+					  <th>Free</th>
+					  <th scope="col" class="align-col">Pro</th>
+					  <th scope="col" class="align-col">Enterprise</th>
+					</tr>
+				  </thead>
+				<tbody>
+					<tr>
+						<th scope="row">Wifi環境</th>
+						<td>✔</td>
+						<td class="align-col">✔</td>
+						<td class="align-col">✔</td>					</tr>
+					<tr>
+						<th scope="row">ロッカー/OA機器</th>
+						<td></td>
+						<td class="align-col">✔</td>
+						<td class="align-col">✔</td>					</tr>
+					<tr>
+						<th scope="row">共有会議室</th>
+						<td></td>
+						<td class="align-col">✔</td>
+						<td class="align-col">✔</td>					</tr>
+					<tr>
+						<th scope="row">共有ワークスペース</th>
+						<td></td>
+						<td class="align-col">✔</td>
+						<td class="align-col">✔</td>					</tr>
+					<tr>
+						<th scope="row">専用ワークスペース</th>
+						<td></td>
+						<td class="align-col">✔</td>
+						<td class="align-col">✔</td>					</tr>
+					<tr>
+						<th scope="row">専用オフィス(秘書付き)</th>
+						<td></td>
+						<td></td>
+						<td class="align-col">✔</td>					</tr>
+				</tbody>
+			</table>
+
+			<div class="border-box"></div>					
+		</div>
+		
+	</main>
+	<!-- Main(End) -->
+
+	<!-- Footer(Start) -->
+	<footer>
+		<div class="container text-muted py-5">
+			<p class="float-end mb-1"><a href="#">Back to top</a></p>
+			<p class="mb-1">&copy; Bootstrap</p>
+			<p class="mb-0">
+				<a href="https://getbootstrap.jp" target="_blank">Bootstap公式サイト</a>や
+				<a href="https://getbootstrap.jp/docs/5.0/getting-started/introduction/" target="_blank">スタートガイド</a>、
+				<a href="https://icons.getbootstrap.com/" target="_blank">アイコン</a>を活用しましょう。
+			</p>
+		</div>
+	</footer>
+	<!-- Footer(End) -->
+
+	<!-- JavaScript -->
+	<script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+	<script src="./libs/bootstrap/popper.min.js"></script>
+	<script src="./libs/bootstrap/bootstrap.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
